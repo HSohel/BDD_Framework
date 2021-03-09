@@ -7,9 +7,9 @@
         </classes>
     </test>
 
-    <test name="php_travels" >
-    <classes>
-            <class name="automation_test.php_travels.PHPTravel"/>
-        </classes>
+    <test name="api_automation" >
+    <packages>
+            <package name="api_test"/>
+        </packages>
     </test>
 </suite>
